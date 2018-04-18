@@ -1,0 +1,55 @@
+/* Style Sheet for Portfolio page tree */
+
+header {
+  padding: 10px 0 38px 0;
+  margin-bottom: 20px;
+  color: #333;
+  background: #ccc;
+}
+
+/*.aboutme {
+  width: 70%;
+  align-self: center;
+  clear: both;
+}*/
+
+body {
+  background-color: white;
+  border-color: #dddddd;
+}
+
+
+
+#name {
+  float: left;
+  background-color: #4aaaa5;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px;
+  margin: 0 0 0 50px;
+}
+
+#links {
+  float: right;
+  margin: auto;
+}
+
+#portfolio {
+  float: right;
+  margin: 0 15px;
+}
+
+#container {
+  background-color: white;
+  border-color: #dddddd;
+  width: 500px;
+  border: 50px 200px 100px 200px;
+}
+
+#about {
+
+}
+
+#pic {
+  float: left;
+}
