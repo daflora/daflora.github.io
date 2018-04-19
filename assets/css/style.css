@@ -1,55 +1,81 @@
-/* Style Sheet for Portfolio page tree */
-
-header {
-  padding: 10px 0 38px 0;
-  margin-bottom: 20px;
-  color: #333;
-  background: #ccc;
+* {
+  box-sizing: border-box;
 }
-
-/*.aboutme {
-  width: 70%;
-  align-self: center;
-  clear: both;
-}*/
 
 body {
-  background-color: white;
-  border-color: #dddddd;
+  background: #000000;
+  height: 1280px;
 }
 
-
-
-#name {
-  float: left;
-  background-color: #4aaaa5;
-  font-size: 18px;
-  font-weight: bold;
-  padding: 10px;
-  margin: 0 0 0 50px;
-}
-
-#links {
-  float: right;
+.container {
+  /*position: relative;*/
+  width:1280px;
+  height:720px;
+  background: #a0a0a0;
   margin: auto;
 }
 
-#portfolio {
-  float: right;
-  margin: 0 15px;
+.wrapper {
+  width: 1024px;
+  height: 600px;
+  margin: 0 128px;
+  background: #ccddee;
+  border-bottom: 2px solid #4aaaa5;
+  margin: auto;
 }
 
-#container {
-  background-color: white;
-  border-color: #dddddd;
-  width: 500px;
-  border: 50px 200px 100px 200px;
+.header_bar {
+  position: relative;
+  width: 1280px;
+  height: 72px;
+  border-bottom: 1px solid grey;
+  background: white;
+  margin: auto;
 }
 
-#about {
-
+.name {
+  position: absolute;
+  left: 128px;
+  background-color: #4aaaa5;
+  font-size: 24px;
+  font-weight: bold;
+  padding: 22px;
+  margin: 0;
+  border: 0;
 }
 
-#pic {
+h1 {
+  color: #4aaaa5;
+  font-size: 24px;
+  font-weight: bold;
+  padding: 22px;
+}
+
+img {
   float: left;
+  margin: 20px 20px 20px 0;
+}
+
+p {
+  border-top: 1px solid grey;
+  padding: 20px;
+}
+
+.links {
+  display: block;
+  float: right;
+  margin: 25px auto;
+  padding: 0 10px;
+}
+
+.contact {
+  margin-right: 128px;
+}
+
+.portfolio {
+  margin: 25px auto;
+  float: right;
+  padding: 0 10px;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
 }
