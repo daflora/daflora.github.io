@@ -7,26 +7,33 @@ body {
   height: 1280px;
 }
 
+a:hover {
+  color: #a0a;
+}
 .container {
-  /*position: relative;*/
-  width:1280px;
+  /*background-size: contain;*/
+  width:1024px;
   height:720px;
   background: #a0a0a0;
   margin: auto;
 }
-
+.content {
+  margin-top: 36px;
+  border: 1px solid #4aaaa5;
+}
 .wrapper {
-  width: 1024px;
+  width: 768px;
   height: 600px;
   margin: 0 128px;
   background: #ccddee;
+
   border-bottom: 2px solid #4aaaa5;
   margin: auto;
 }
 
 .header_bar {
   position: relative;
-  width: 1280px;
+  width: 1024px;
   height: 72px;
   border-bottom: 1px solid grey;
   background: white;
@@ -37,7 +44,9 @@ body {
   position: absolute;
   left: 128px;
   background-color: #4aaaa5;
+  font-family: 'Lily Script One', cursive;
   font-size: 24px;
+  line-height: 28px;
   font-weight: bold;
   padding: 22px;
   margin: 0;
@@ -45,6 +54,7 @@ body {
 }
 
 h1 {
+  font-family: 'Lily Script One', cursive;
   color: #4aaaa5;
   font-size: 24px;
   font-weight: bold;
@@ -57,11 +67,20 @@ img {
 }
 
 p {
+
+  /*font-family: 'Lily Script One', cursive;*/
+  font-family: 'Roboto', sans-serif;
   border-top: 1px solid grey;
   padding: 20px;
 }
 
+p::first-line {
+  text-transform: capitalize;
+  color: #4aaaa5;
+}
+
 .links {
+  font-family: 'Lily Script One', cursive;
   display: block;
   float: right;
   margin: 25px auto;
@@ -73,6 +92,7 @@ p {
 }
 
 .portfolio {
+  font-family: 'Lily Script One', cursive;
   margin: 25px auto;
   float: right;
   padding: 0 10px;
